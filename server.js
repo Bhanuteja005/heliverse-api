@@ -15,6 +15,11 @@ connectDB();
 
 app.use(logger);
 
+app.use((req, res, next) => {
+  console.log('Request Origin:', req.headers.origin);
+  next();
+});
+
 app.use(cors(corsOptions));
 
 app.use(express.json());
