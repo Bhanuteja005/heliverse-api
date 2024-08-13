@@ -1,7 +1,7 @@
 {
   "name": "4.4",
   "version": "1.1.0",
-  "description": "REST API for Kollege",
+  "description": "REST API for Heliverse",
   "main": "server.js",
   "scripts": {
     "start": "node server",
